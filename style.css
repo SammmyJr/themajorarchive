@@ -1,83 +1,80 @@
-@font-face {
-    font-family: 'VHR';
-    src: url('./fonts/VHROCD.woff') format('woff'), /* Modern Browsers */
-         url('./fonts/VHROCD.ttf')  format('truetype'); /* Safari, Android, iOS */
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
 
 html {
-    font-family: 'VHR';
-    padding: 10px;
-    background-color:  black;
-    color: white;
-    background-image: url("./img/other/noise.png");
+  font-family: 'VT323', monospace;
+  font-family: 'Share Tech Mono', monospace;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  background-image: url('./img/other/noise.png');
 }
 
 .top {
-    z-index: 1;
-    position: absolute;
-    inset: 0;
-    background-color: royalblue;
-    text-align: center;
-    padding-top: 35vh;
+  font-family: 'VT323', monospace;
+  z-index: 1;
+  position: absolute;
+  inset: 0;
+  background-color: royalblue;
+  text-align: center;
+  padding-top: 33.5vh;
 }
 
 .top h1 {
-    font-size: 6vw;
+  font-size: 6vw;
 }
 
 div.centre {
-    text-align: center;
-    margin-top: 29vh;
-    font-size: 4.5vw;
-    background-color: royalblue;
-    border: 1px white solid;
+  text-align: center;
+  margin-top: 29vh;
+  font-size: 4.5vw;
+  background-color: royalblue;
+  border: 1px white solid;
 }
 
 div.centre p {
-    margin-bottom: 175px;
-    font-size: 4.5vw;
+  margin-bottom: 175px;
+  font-size: 4.5vw;
 }
 
 div.art {
-    margin-top: 35vh;
+  margin-top: 35vh;
 }
 
 div.artcontent {
-    text-align: center;
-    border: 2px solid white;
-    padding: 3px;
-    margin-bottom: 50px;
-    background-color: black;
+  text-align: center;
+  border: 2px solid white;
+  padding: 3px;
+  margin-bottom: 50px;
+  background-color: black;
 }
 
 div.title {
-    position: relative;
-    padding: 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    height: fit-content;
-    width: 85vw;
-    border-bottom: 2px white solid;
+  position: relative;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  width: 85vw;
+  border-bottom: 2px white solid;
 }
 
 h2 {
-    font-size: 5vw;
+  font-size: 5vw;
 }
 
 h3 {
-    font-size: 4.2vw;
+  font-size: 4.2vw;
 }
 
 h4 {
-    font-size: 3.8vw;
+  font-size: 3.8vw;
 }
 
 h5 {
-    font-size: 3vw;
+  font-size: 3vw;
 }
 
 p {
-    font-size: 3vw;
+  font-size: 3vw;
 }
