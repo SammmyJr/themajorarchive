@@ -15,8 +15,11 @@ function showText() {
 
   function appendText(index) {
     setTimeout(() => {
-      let newElem = document.createElement('p'); // Create a new p element to write the text into
-      newElem.innerHTML = introTexts[index]; // Set innerHTML of p to be the current index of introTexts' string
+      let newElem = document.createElement(
+          'p'); // Create a new p element to write the text into
+      newElem.innerHTML =
+          introTexts[index]; // Set innerHTML of p to be the current index of
+                             // introTexts' string
       introElem.appendChild(newElem); // Append the newElem to introElem
     }, 1200 * index);
   }
@@ -25,18 +28,13 @@ function showText() {
     appendText(i);
   }
 
-  setTimeout(() => {
-    introElem.style.display = 'none';
-  }, 1100 * introTexts.length + 1);
+  setTimeout(() => { introElem.style.display = 'none'; },
+             1100 * introTexts.length + 1);
 }
 
-function royalBack() {
-  topElem.style.display = 'block';
-}
+function royalBack() { topElem.style.display = 'block'; }
 
-function blackBack() {
-  topElem.style.display = 'none';
-}
+function blackBack() { topElem.style.display = 'none'; }
 
 function go() {
   audio.currentTime = 0;
@@ -58,7 +56,7 @@ function go() {
   setTimeout(() => {
     // Called as soon as text as finished printing
     contentElem.style.display = 'block';
-    //royalBack()
+    // royalBack()
   }, 1400 * introTexts.length + 1);
 }
 
